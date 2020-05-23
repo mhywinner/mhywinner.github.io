@@ -533,13 +533,33 @@
   
 
   
-
+<div class="moon-menu">
+  <div class="moon-menu-items">
+    
+    <div class="moon-menu-item" onclick="back2bottom()">
+      <i class='fas fa-chevron-down'></i>    </div>
+    
+    <div class="moon-menu-item" onclick="back2top()">
+      <i class='fas fa-chevron-up'></i>    </div>
+    
+  </div>
+  <div class="moon-menu-button">
+    <svg class="moon-menu-bg">
+      <circle class="moon-menu-cricle" cx="50%" cy="50%" r="44%"></circle>
+      <circle class="moon-menu-border" cx="50%" cy="50%" r="48%"></circle>
+    </svg>
+    <div class="moon-menu-content">
+      <div class="moon-menu-icon"><i class='fas fa-ellipsis-v'></i></div>
+      <div class="moon-menu-text"></div>
+    </div>
+  </div>
+</div><script src="/js/injector.js"></script>
 </body>
 </html>
 <script type="text/javascript" src="/js/clicklove.js"></script>、
 <script src="/js/activate-power-mode.js"></script>
 <script>
-  POWERMODE.colorful = true;
-  POWERMODE.shake = false; 
+  POWERMODE.colorful = true; ## 控制开启 / 开启礼花特效
+  POWERMODE.shake = false;   ##// 控制开启 / 关闭屏幕震动特效
   document.body.addEventListener('input', POWERMODE);
 </script>
