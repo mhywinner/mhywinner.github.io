@@ -67,6 +67,18 @@
       </tags>
   </entry>
   <entry>
+    <title>记录一些重要的日子</title>
+    <url>/2020/05/25/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E9%87%8D%E8%A6%81%E7%9A%84%E6%97%A5%E5%AD%90/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>点点滴滴皆为爱意</category>
+      </categories>
+      <tags>
+        <tag>纪念日</tag>
+        <tag>她</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>读书是为了什么</title>
     <url>/2020/05/25/%E8%AF%BB%E4%B9%A6%E6%98%AF%E4%B8%BA%E4%BA%86%E4%BB%80%E4%B9%88/</url>
     <content><![CDATA[]]></content>
@@ -115,18 +127,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记录一些重要的日子</title>
-    <url>/2020/05/25/%E8%AE%B0%E5%BD%95%E4%B8%80%E4%BA%9B%E9%87%8D%E8%A6%81%E7%9A%84%E6%97%A5%E5%AD%90/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>点点滴滴皆为爱意</category>
-      </categories>
-      <tags>
-        <tag>几年日</tag>
-        <tag>她</tag>
-      </tags>
-  </entry>
-  <entry>
     <title></title>
     <url>/404.html</url>
     <content><![CDATA[+layout: false
@@ -149,11 +149,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>读读写写皆为世道</title>
-    <url>/books/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>文章分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
@@ -171,6 +166,11 @@
   <entry>
     <title>标签</title>
     <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>读读写写皆为世道</title>
+    <url>/books/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
