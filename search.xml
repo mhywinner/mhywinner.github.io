@@ -51,11 +51,6 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>标签</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>点点滴滴皆为爱意</title>
     <url>/love/index.html</url>
     <content><![CDATA[]]></content>
@@ -66,13 +61,18 @@
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>朝往暮归皆为生活</title>
+    <url>/work/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>文章分类</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>朝往暮归皆为生活</title>
-    <url>/work/index.html</url>
+    <title>标签</title>
+    <url>/tags/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
 </search>
