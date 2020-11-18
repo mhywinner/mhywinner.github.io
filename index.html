@@ -306,6 +306,115 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://www.mhywinner.com/2020/11/19/Hexo%E5%9B%BE%E6%A0%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Hyman">
+      <meta itemprop="description" content="相逢意气为君饮,系马高楼垂柳旁">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hyman’s Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/11/19/Hexo%E5%9B%BE%E6%A0%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="post-title-link" itemprop="url">Hexo图标不显示问题解决方案</a>
+        </h2>
+
+        <div class="post-meta">
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-11-18 18:00:00" itemprop="dateCreated datePublished" datetime="2020-11-18T18:00:00Z">2020-11-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%BB%E8%AF%BB%E5%86%99%E5%86%99%E7%9A%86%E4%B8%BA%E4%B8%96%E9%81%93/" itemprop="url" rel="index"><span itemprop="name">读读写写皆为世道</span></a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/11/19/Hexo%E5%9B%BE%E6%A0%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/11/19/Hexo%E5%9B%BE%E6%A0%87%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>591</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h1><p>　　昨天更新了博客的一篇文章，结果在修改配置文件的时候，不小心点VScode中的恢复历史功能，结果不知道恢复到哪个版本去了，也不知道更新我项目里什么东西，之际导致我的博客中所有图标都不显示。当时效果如下<img src="/Users/hyman/HymanBlog/source/images/%E9%97%AE%E9%A2%98%E7%8E%B0%E8%B1%A1%E5%9B%BE.png" alt="问题现象图"></p>
+<p>　　所有的图标都小时了，直接把我搞懵逼，当时从网上试了很多方法都不行，作为一个代码小白，完全不懂大神们的代码都是什么意思。也尝试了各种升级什么办法，反正没有成功。</p>
+<h1 id="事情经过"><a href="#事情经过" class="headerlink" title="事情经过"></a>事情经过</h1><p>　　后来利用非常有限的知识，打开F12，准备看下报什么错误，好去请教一个身边的程序员大哥，结果我发现貌似我能理解，当时报错是这样的<img src="/Users/hyman/HymanBlog/source/images/%E6%8A%A5%E9%94%99.png" alt="报错"></p>
+<p>　　报错基本上是404，上网多的人都知道404就是找不到呗，既然是找不到，无非就两种原因，一个是代码里面关联的名字有问题，另外一个就是这些图标文件丢失了（后来发现是字体文件，不懂，勿怪）。点开后面的详细报错</p>
+<p><img src="/Users/hyman/HymanBlog/source/images/%E8%AF%A6%E7%BB%86%E6%8A%A5%E9%94%99.png" alt="详细报错"></p>
+<p>　　然后就去找这个文件，发现文件夹里没有这些文件。问题很清晰了，VScode给我删掉了，于是，有问题找度娘，管他是不是，先放进去看一看<img src="/Users/hyman/HymanBlog/source/images/440DFF01-83AC-4C3C-936B-3335312B9546.png" alt="440DFF01-83AC-4C3C-936B-3335312B9546"></p>
+<p>　　度娘下载完毕<img src="/Users/hyman/HymanBlog/source/images/B5344CE9-356D-428E-87FA-6188A81AC32E.png" alt="B5344CE9-356D-428E-87FA-6188A81AC32E"></p>
+<p>　　放入文件夹<br>　　然后hexo g -d<br>　　清除缓存，进入网站</p>
+<p><img src="/Users/hyman/HymanBlog/source/images/image-20201118162317976.png" alt="image-20201118162317976"></p>
+<p>　　完美，一切显示如初，这些好了，不用请大神吃饭了。又省了一顿饭。</p>
+<h1 id="事情结果"><a href="#事情结果" class="headerlink" title="事情结果"></a>事情结果</h1><p>　　总结起来，有些事情其实没那么难，和很多程序员合作过，他们很多也离不开google和百度，所以遇到问题，可以查一下思路，去分析一下。结果说不定还是不错的。hexo的版本与主题也有不少，都有细小的差异，所以需要自己好好研究一下。</p>
+
+      
+    </div>
+  <div>
+    
+  </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://www.mhywinner.com/2020/11/18/%E5%85%B3%E4%BA%8E%E5%85%A8%E9%9D%A2%E9%A2%84%E7%AE%97%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%87%A0%E7%82%B9%E6%80%9D%E8%80%83/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -581,18 +690,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">8</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
