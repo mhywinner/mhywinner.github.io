@@ -1,0 +1,1 @@
+var posts=["2023/01/10/到底什么叫全面预算/","2023/01/13/告别2022/","2023/01/17/如何设计一个对账产品/","2023/01/08/支付业务中的一些思维/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
